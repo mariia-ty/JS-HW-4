@@ -66,4 +66,4 @@ let userName = prompt("Please enter your name: ");
 if (userName == "Admin" || userName == "admin") {
   alert("Вітаю, Адмін");
 }
-else alert("Привіт, ", userName);
+else alert(`Привіт, ${userName} !`);
